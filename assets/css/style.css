@@ -1,0 +1,184 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.hdr-lft {
+    text-decoration: none;
+    list-style: none;
+    display: inline-flex; 
+}
+
+.hdr-lft li {
+    margin-right: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.hdr-rgt {
+    text-decoration: none;
+    list-style: none;
+    display: inline-flex;
+    float: right;
+    padding-right: 20px;
+}
+
+.login{
+    margin-top: 8px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.input-group input {
+    border: none;
+    border-bottom: 2px solid #efc551;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.input-group .mdi {
+    font-size: 22px;
+}
+
+.cartSec {
+    margin: 0 20px;
+    font-size: 24px;
+}
+
+.loginTxt{
+    margin-top: 6px;
+    font-size: 16px;
+}
+
+.filterSec{
+    list-style: none;
+    padding-left: 0px;
+    display: inline-block;
+    width: 80%;
+}
+
+.mdi-chevron-down {
+    float: right;
+}
+
+.filterby {
+    padding-left: 6px;
+    font-size: 14px;
+    color: #a09b9b;
+    margin-bottom: 15px;
+}
+
+.filterSec li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 6px;
+    padding: 2px 10px 10px 6px;
+}
+
+.content-wrapper {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 0.2fr 1fr;
+}
+
+.filterOuter {
+    padding-left: 20px;
+}
+
+.prd-sec {
+    margin-top: 5%;
+    width: fit-content;
+    border: 1px solid gainsboro;
+    padding: 2px;
+}
+
+.prd-sec img {
+    width: 280px;
+    height: 230px;
+}
+
+.starSec {
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.starSec li {
+    display: inline-block;
+    margin-right: -2px;
+}
+
+.prd-inner {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-column-gap: 30px;
+    width: 100%;
+}
+
+.prd-inner-rgt {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.prd-inner-left {
+    margin-top: -40px;
+    background: #fff;
+}
+
+.prdHd,.prdsubHd{
+    padding: 4px 0px 0px 8px;
+    margin: 0px;
+    font-size: 14px;
+}
+
+.cost {
+    margin: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-size: 14px;
+}
+
+.prd-contInner {
+    display: grid;
+    grid-template-columns: 0.6fr 0.6fr 0.6fr;
+}
+
+header{
+    padding: 25px;
+}
+
+.logo {
+    background: #000;
+    color: #fff;
+    width: 38px;
+    display: inline-block;
+    height: 34px;
+    text-align: center;
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.paginationSec {
+    margin-left: 16.5%;
+    margin-top: 30px;
+}
+
+.paginationSec li {
+    display: inline-block;
+    margin-right: 20px;
+    width: 30px;
+    height: 26px;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.paginationSec .selected {
+    background: #000;
+    color: #fff;  
+}

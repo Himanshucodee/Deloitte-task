@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "name": "Combos",
+      "subname": "Lounge",
+      "price": 899,
+      "rating": 4,
+      "image": "assets/image/home.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Keeve Set",
+      "subname": "Table & Chairs",
+      "price": 590,
+      "rating": 4,
+      "image": "assets/image/home1.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Niilie",
+      "subname": "Chairs",
+      "price": 987,
+      "rating": 3,
+      "image": "assets/image/home.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Momnao",
+      "subname": "Beds",
+      "price": 120,
+      "rating": 5,
+      "image": "assets/image/home1.jpg"
+    }
+
+  ]
